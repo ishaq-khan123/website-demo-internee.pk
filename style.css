@@ -58,3 +58,54 @@
 .sign-in-button:hover{
     background-color: #293349;
 }
+.heading{
+    background-color: #101828;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+.parent{
+    border: none;
+    width: 100vw;
+    background-color: #101828;
+    padding: 15px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.image-width{
+    width: 5vw;
+}
+.heading-1{
+    border: none;
+    width: 100vw;
+    background-color: #101828;
+    padding: 15px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+    font-size: 2.5rem;
+}
+.container-backgrund{
+    background-image: url(./assets/images/downloaded\ back\ image.jpeg);
+    width: 100%;
+    height: 100%;
+}
+.heading-2{
+    color: #4e4747;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: 2.5rem;
+    margin-top: 100px;
+}
+.para-1{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    color: #4e4747;
+    font-size: 1.2rem;
+}
