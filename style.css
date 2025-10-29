@@ -1,6 +1,60 @@
+.navbar{
+    background-color: #111010;
+    color: #ffffff;
+}
+.navbar-a:hover{
+    color: #008000;
+}
+.nav-home{
+    color: green;
+}
 .main-image{
     margin-top: 70px;
     margin-right: 70px;
     width: 40vw;
     float: right;
+}
+.white-internee{
+    width: 17vw;
+    height: 10vh;
+    padding: 10px;
+}
+.jobportal-btn{
+    border: 1px solid #008000;
+    background-color: #008000;
+    padding: 8px 20px;
+    border-radius: 13px;
+    font-weight: 500;
+}
+.jobportal-btn:hover{
+    background-color: transparent;
+}
+.sign-in-btn{
+    border: 1px solid #008000;
+    background-color: #008000;
+    padding: 8px 20px;
+    gap: 20px;
+    border-radius: 13px;
+    font-weight: 500;
+    margin: 40px;
+}
+.our-job-portal{
+    background-color: #3b923b;
+    color: white;
+    border-radius: 17px;
+    font-size: 1.2rem;
+    font-weight: 400;
+}
+.our-job-portal:hover{
+    background-color: #4caf31;
+}
+.sign-in-button{
+    background-color: #1e2536;
+    border-radius: 15px;
+    font-size: 1.2rem;
+    font-weight: 400;
+    width: 10vw;
+}
+.sign-in-button:hover{
+    background-color: #293349;
 }
