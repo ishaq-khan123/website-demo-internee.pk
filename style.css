@@ -66,7 +66,7 @@
 }
 .parent{
     border: none;
-    width: 100vw;
+    width: 98.9vw;
     background-color: #101828;
     padding: 15px;
     display: flex;
@@ -76,36 +76,76 @@
 .image-width{
     width: 5vw;
 }
+.button-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 200px;
+}
+.button{
+    background-color: #293349;
+    border: 1px solid #ffffff;
+    width: 26vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    border-radius: 20px;
+    padding: 7px;
+    font-weight: bold;
+    color: #ffffff;
+}
+.trending-btn{
+    border: 1px solid #ffffff;
+    border-radius: 15px;
+    padding: 3px 7px;
+    background-color: #ffffff;
+    color: #000000;
+    font-weight: bold;
+}
 .heading-1{
-    border: none;
-    width: 100vw;
     background-color: #101828;
-    padding: 15px;
+    padding-top: 20px;
     display: flex;
     justify-content: space-around;
     align-items: center;
     text-align: center;
     font-size: 2.5rem;
 }
-.container-backgrund{
-    background-image: url(./assets/images/downloaded\ back\ image.jpeg);
+.hero{
+    background-image: url(./assets/images/BeFunky-photo-2.jpg);
+    background-size: cover;
     width: 100%;
-    height: 100%;
+    height: 150vh;
+    position: relative;
 }
 .heading-2{
-    color: #4e4747;
+    position: relative;
+    top: 100px;
+    color: #ffffff;
     display: flex;
     justify-content: center;
     align-items: center;
     text-align: center;
     font-size: 2.5rem;
-    margin-top: 100px;
+    font-weight: bolder;
 }
 .para-1{
+    position: relative;
+    top: 120px;
     display: flex;
     justify-content: center;
     text-align: center;
     align-items: center;
-    color: #4e4747;
+    color: #d1c7c7;
     font-size: 1.2rem;
+}
+.shotting-star{
+    font-size: 1.3rem;
+    font-weight: bolder;
+    color: #ffffff;
+}
+.para-shotting-star{
+    font-weight: 500;
+    color: #ffffff;
 }
